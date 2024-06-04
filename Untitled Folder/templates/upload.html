@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lip Reading Recognition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .upload-section {
+            background-color: #e7e7e7;
+            padding: 20px;
+            text-align: center;
+        }
+        .upload-section input[type="file"] {
+            display: none;
+        }
+        .upload-section label {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .upload-section label:hover {
+            background-color: #555;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Lip Reading Recognition Website</h1>
+        <p>Lip reading, also known as speech reading, is the ability to understand speech by visually interpreting the movements of the lips, face, and tongue. It is a vital communication tool for the deaf and hard of hearing. Our website utilizes advanced technology to analyze and interpret these movements, allowing for improved communication and accessibility.</p>
+        <div class="upload-section">
+            <input type="file" id="videoUpload" accept="video/*">
+            <label for="videoUpload">Upload Video</label>
+        </div>
+        <p>Please upload a clear video where the subject's face and lips are visible. Our system will automatically process the video and provide a lip-reading interpretation.</p>
+        <div class="footer">
+            <p>For any questions or assistance, please contact us at info@lipreading.com</p>
+        </div>
+    </div>
+</body>
+</html>
+
